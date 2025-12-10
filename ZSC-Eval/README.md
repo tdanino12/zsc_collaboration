@@ -115,6 +115,18 @@ python extract_models/extract_bias_agents_models.py {layout}
 python prep/gen_bias_agent_eval_yml.py {layout}
 cd overcooked
 ```
+
+############################
+
+In addition:
+2.5 Copy policy config files from the main "policy_config_files" folder to script/policy pool:
+```shell
+cp -r policy_config_files/{layout}/policy_config zsc_collaboration/ZSC-Eval/scripts/policy_pool/{layout}
+
+```
+
+############################
+
 3. evaluate the agents and get policy behaviors
 ```shell
 bash shell/eval_bias_agents_events.sh {layout}
