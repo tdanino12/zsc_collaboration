@@ -134,12 +134,15 @@ python prep/gen_bias_agent_benchmark_yml.py -l {layout}
 ```
 
 ############################
+
 In addition:
 4.5 Create train be files manually by running:
 ```shell
 python scripts/prep/gen_train_br_ymls.py -l {layout}
 ```
+
 ############################
+
 5. train BRs for mid-level biased agents
 ```shell
 cd overcooked
