@@ -1,0 +1,126 @@
+bias1_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp1_mid_w0_actor.pt
+bias1_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp1_final_w0_actor.pt
+bias2_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp3_mid_w0_actor.pt
+bias2_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp3_final_w0_actor.pt
+bias3_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp4_mid_w0_actor.pt
+bias3_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp4_final_w0_actor.pt
+bias4_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp5_mid_w0_actor.pt
+bias4_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp5_final_w0_actor.pt
+bias5_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp7_mid_w0_actor.pt
+bias5_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp7_final_w0_actor.pt
+bias6_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp9_mid_w0_actor.pt
+bias6_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp9_final_w0_actor.pt
+bias7_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp17_mid_w0_actor.pt
+bias7_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp17_final_w0_actor.pt
+bias8_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp26_mid_w0_actor.pt
+bias8_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp26_final_w0_actor.pt
+bias9_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp28_mid_w0_actor.pt
+bias9_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp28_final_w0_actor.pt
+bias10_mid:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp29_mid_w0_actor.pt
+bias10_final:
+    policy_config_path: random0/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s1/hsp/hsp29_final_w0_actor.pt
+hsp-S2-s24-1:
+    policy_config_path: random0/policy_config/rnn_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0/hsp/s2/hsp-S2-s24/1.pt

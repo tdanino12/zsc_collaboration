@@ -1,0 +1,15 @@
+
+hsp19_final_w0:
+    policy_config_path: random0_medium/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0_medium/hsp/s1/hsp/hsp19_final_w0_actor.pt
+    
+hsp19_final_w1:
+    policy_config_path: random0_medium/policy_config/mlp_policy_config.pkl
+    featurize_type: ppo
+    train: False
+    model_path:
+        actor: random0_medium/hsp/s1/hsp/hsp19_final_w1_actor.pt
+    
